@@ -286,7 +286,8 @@ input[type="search"]{
   background-size: 1.4em;
   background-repeat: no-repeat;
   background-position: center center;
- 
+  margin-left: 0.01in;
+  
   display: inline;
   color: #5b616b;
   
