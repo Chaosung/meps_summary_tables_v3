@@ -36,7 +36,7 @@ exclude_initial <- exclude_levels(all_levels)
 exclude_choices <- c(
   grep("missing",all_levels,value=T,ignore.case=T),
   grep("inapplicable",all_levels,value=T,ignore.case=T)
-)
+) 
 ##############################################################
 
 server <- function(input, output,session) {
